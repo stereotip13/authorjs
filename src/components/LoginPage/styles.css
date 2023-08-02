@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.form_input {
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  bottom: none;
+  border-radius: 4px;
+}
+.form_link {
+  align-self: start;
+  padding: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: blueviolet;
+  color: white;
+}
+.form_link--disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
